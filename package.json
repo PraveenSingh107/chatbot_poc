@@ -1,0 +1,22 @@
+{
+  "name": "chatbot_poc",
+  "version": "1.0.0",
+  "description": "Get started example for Messenger Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude-path=.gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Test",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
